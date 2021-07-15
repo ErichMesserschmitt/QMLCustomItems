@@ -80,7 +80,7 @@ Item {
                 width: 0
                 color: Style.transparent
 
-                CustomToolButton { //custom item, based on Rectangle and Label. You can replace it by Rectangle, for use
+                CustomToolButton { //custom item, based on Rectangle, MouseArea and Label. You can replace it by Rectangle, for use
                     id: clockItem
                     anchors.bottom: clockItemRope.bottom
                     anchors.horizontalCenter: clockItemRope.horizontalCenter
